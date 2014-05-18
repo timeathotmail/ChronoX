@@ -78,7 +78,7 @@
       \begin{tabular}[t]{l}
         \begin{tabular}[t]{l@{\hskip 10mm}l}
             \thistitle & \thissemester \hspace{4ex} \\
-           Tutor: {#3}  &  Gruppe: {#4} \\
+           Tutorin: {#3}  &  Teilgruppe: {#4} \\
         \end{tabular} \vspace{5mm} \\
         {\Huge\sf {#8} {#1} } \\[1.5ex]
         {\Large L\"osungsvorschlag} \\[1ex]
