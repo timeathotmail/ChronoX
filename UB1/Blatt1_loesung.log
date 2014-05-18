@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  18 MAY 2014 13:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  18 MAY 2014 14:30
 entering extended mode
 **Blatt1_loesung.tex
 ("C:\Users\Tim Desktop\Dropbox\GitHub\SWP1-REPO\UB1\Blatt1_loesung.tex"
@@ -547,7 +547,12 @@ Overfull \hbox (4.65651pt too wide) in paragraph at lines 102--103
 Underfull \vbox (badness 3965) has occurred while \output is active []
 
  [5]
-[6] ("C:\Users\Tim Desktop\Dropbox\GitHub\SWP1-REPO\UB1\Blatt1_loesung.aux") ) 
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+[8] ("C:\Users\Tim Desktop\Dropbox\GitHub\SWP1-REPO\UB1\Blatt1_loesung.aux") ) 
 Here is how much of TeX's memory you used:
  4267 strings out of 493921
  55166 string characters out of 3144858
@@ -563,12 +568,13 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Blatt1_loesung.pdf (6 pages, 121659 bytes).
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Blatt1_loesung.pdf (8 pages, 142411 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
