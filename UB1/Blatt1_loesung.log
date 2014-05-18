@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  18 MAY 2014 10:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  18 MAY 2014 11:08
 entering extended mode
 **Blatt1_loesung.tex
 ("C:\Users\Tim Desktop\Dropbox\GitHub\SWP1-REPO\UB1\Blatt1_loesung.tex"
@@ -458,21 +458,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2] [3] ("C:\Users\Tim Desktop\Dropbox\GitHub\SWP1-REPO\UB1\Blatt1_loesung.aux"
 ) ) 
 Here is how much of TeX's memory you used:
- 3579 strings out of 493921
- 47359 string characters out of 3144858
+ 3581 strings out of 493921
+ 47383 string characters out of 3144858
  131956 words of memory out of 3000000
- 6836 multiletter control sequences out of 15000+200000
- 10103 words of font info for 38 fonts, out of 3000000 for 9000
+ 6837 multiletter control sequences out of 15000+200000
+ 10411 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,18n,46p,548b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Blatt1_loesung.pdf (3 pages, 71705 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Blatt1_loesung.pdf (3 pages, 80576 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
