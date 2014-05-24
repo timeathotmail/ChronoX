@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  21 MAY 2014 11:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  24 MAY 2014 17:01
 entering extended mode
 **1-Projektplan-Vorlage.tex
 
@@ -103,7 +103,10 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen103
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -330,8 +333,8 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
-\calc@Adimen=\dimen103
-\calc@Bdimen=\dimen104
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
 \calc@Askip=\skip48
 \calc@Bskip=\skip49
 LaTeX Info: Redefining \setlength on input line 76.
@@ -391,8 +394,8 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
@@ -482,7 +485,7 @@ Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count98
-\U@D=\dimen107
+\U@D=\dimen108
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
@@ -490,7 +493,7 @@ Package babel Info: Making " an active character on input line 92.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\german\ngerman.sty"
 v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen108
+\grmnU@D=\dimen109
 LaTeX Info: Redefining \glqq on input line 255.
 LaTeX Info: Redefining \glq on input line 268.
 LaTeX Info: Redefining \flqq on input line 281.
@@ -510,37 +513,37 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen109
-\extrarowheight=\dimen110
+\col@sep=\dimen110
+\extrarowheight=\dimen111
 \NC@list=\toks22
 \extratabsurround=\skip60
 \backup@length=\skip61
 )
-\TX@col@width=\dimen111
-\TX@old@table=\dimen112
-\TX@old@col=\dimen113
-\TX@target=\dimen114
-\TX@delta=\dimen115
+\TX@col@width=\dimen112
+\TX@old@table=\dimen113
+\TX@old@col=\dimen114
+\TX@target=\dimen115
+\TX@delta=\dimen116
 \TX@cols=\count99
 \TX@ftn=\toks23
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count100
-\ST@wd=\dimen116
+\ST@wd=\dimen117
 \ST@rightskip=\skip62
 \ST@leftskip=\skip63
 \ST@parfillskip=\skip64
-\ST@pageleft=\dimen117
-\ST@headht=\dimen118
-\ST@tailht=\dimen119
-\ST@pagesofar=\dimen120
-\ST@pboxht=\dimen121
-\ST@lineht=\dimen122
-\ST@stretchht=\dimen123
-\ST@prevht=\dimen124
-\ST@toadd=\dimen125
-\ST@dimen=\dimen126
+\ST@pageleft=\dimen118
+\ST@headht=\dimen119
+\ST@tailht=\dimen120
+\ST@pagesofar=\dimen121
+\ST@pboxht=\dimen122
+\ST@lineht=\dimen123
+\ST@stretchht=\dimen124
+\ST@prevht=\dimen125
+\ST@toadd=\dimen126
+\ST@dimen=\dimen127
 \ST@pbox=\box31
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -596,7 +599,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen127
+\@linkdim=\dimen128
 \Hy@linkcounter=\count101
 \Hy@pagecounter=\count102
 
@@ -626,10 +629,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count104
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen128
+\XeTeXLinkMargin=\dimen129
 \Fld@menulength=\count105
-\Field@Width=\dimen129
-\Fld@charsize=\dimen130
+\Field@Width=\dimen130
+\Fld@charsize=\dimen131
 Package hyperref Info: Hyper figures ON on input line 6293.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -686,13 +689,13 @@ LaTeX Font Info:    ... okay on input line 76.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
-\scratchdimen=\dimen131
+\scratchdimen=\dimen132
 \scratchbox=\box33
 \nofMPsegments=\count113
 \nofMParguments=\count114
 \everyMPshowfont=\toks24
 \MPscratchCnt=\count115
-\MPscratchDim=\dimen132
+\MPscratchDim=\dimen133
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks25
@@ -809,29 +812,47 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
  [4]
 No file 1-Projektplan-Vorlage.bbl.
-[5] [6] [7] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
+[5] [6] [7]
+Overfull \hbox (3.86035pt too wide) in paragraph at lines 342--357
+[][] 
+ []
+
+
+Overfull \hbox (3.86035pt too wide) in paragraph at lines 358--373
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Overfull \hbox (3.86035pt too wide) in paragraph at lines 374--389
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
 
 ("C:\Users\Tim Desktop\Dropbox\GitHub\ChronoX\Abgaben\1-Projektplan\1-Projektpl
 an-Vorlage.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 386.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 437.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 437.
  ) 
 Here is how much of TeX's memory you used:
- 9311 strings out of 493921
- 138908 string characters out of 3144858
- 279430 words of memory out of 3000000
- 12407 multiletter control sequences out of 15000+200000
+ 9330 strings out of 493921
+ 139317 string characters out of 3144858
+ 279629 words of memory out of 3000000
+ 12420 multiletter control sequences out of 15000+200000
  9798 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,12n,51p,323b,547s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,12n,51p,346b,547s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
@@ -841,9 +862,9 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 1-Projektplan-Vorlage.pdf (9 pages, 169413 bytes).
+Output written on 1-Projektplan-Vorlage.pdf (11 pages, 175641 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
  377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
