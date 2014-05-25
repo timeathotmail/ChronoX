@@ -35,13 +35,13 @@
 \contentsline {subsection}{\numberline {4.3}Unterst\IeC {\"u}tzende Projektfunktionen}{7}{subsection.4.3}
 \contentsline {section}{\numberline {5}Arbeitspakete, Zeitplan und Budget}{8}{section.5}
 \contentsline {subsection}{\numberline {5.1}Arbeitspakete}{8}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Zeitplan und Abh\IeC {\"a}ngigkeiten}{10}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Ressourcenanforderung}{10}{subsection.5.3}
-\contentsline {section}{\numberline {6}Sonstige Elemente}{10}{section.6}
-\contentsline {subsection}{\numberline {6.1}Pl\IeC {\"a}ne f\IeC {\"u}r die Konvertierung von Daten}{10}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Managementpl\IeC {\"a}ne f\IeC {\"u}r Unterauftragsnehmer}{10}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Ausbildungspl\IeC {\"a}ne}{10}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Raumpl\IeC {\"a}ne}{10}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Installationspl\IeC {\"a}ne}{10}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Pl\IeC {\"a}ne f\IeC {\"u}r die \IeC {\"U}bergabe des Systems}{11}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Beschaffungspl\IeC {\"a}ne f\IeC {\"u}r Hardware}{11}{subsection.6.7}
+\contentsline {subsection}{\numberline {5.2}Zeitplan und Abh\IeC {\"a}ngigkeiten}{11}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Ressourcenanforderung}{11}{subsection.5.3}
+\contentsline {section}{\numberline {6}Sonstige Elemente}{11}{section.6}
+\contentsline {subsection}{\numberline {6.1}Pl\IeC {\"a}ne f\IeC {\"u}r die Konvertierung von Daten}{11}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Managementpl\IeC {\"a}ne f\IeC {\"u}r Unterauftragsnehmer}{11}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Ausbildungspl\IeC {\"a}ne}{11}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Raumpl\IeC {\"a}ne}{11}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Installationspl\IeC {\"a}ne}{11}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Pl\IeC {\"a}ne f\IeC {\"u}r die \IeC {\"U}bergabe des Systems}{12}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Beschaffungspl\IeC {\"a}ne f\IeC {\"u}r Hardware}{12}{subsection.6.7}
