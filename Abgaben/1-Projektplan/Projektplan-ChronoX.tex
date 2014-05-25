@@ -33,6 +33,7 @@
 \usepackage{bookmark}
 
 \usepackage[utf8]{inputenc}
+\usepackage{colortbl}
 \usepackage{listings}
 \usepackage{xparse} % LaTeX 3 command
 %\usepackage{ulem} % different underscores for words
@@ -145,7 +146,7 @@
   \\ ~
   \vspace{2cm}
   \\
-  \it Abgabe: 25. Mai 2014 --- Version 1.1\\ ~
+  \it Abgabe: 25. Mai 2014 --- Version 1.2\\ ~
   \end{center}
   \end{minipage}
 
@@ -179,8 +180,8 @@ identifizieren sein, hier und optimalerweise auf dem Titelblatt.}
 Version & Datum & Änderungen \\
 \hline
 1.0 & 23.05.2014 & Erste veröffentlichte Version. \\
-1.1 & TT.MM.JJJJ & ....\\ 
-1.X & 25.05.2014 & Risikomanagement hinzugefügt. \\
+1.1 & 24.05.2014 & Arbeitspakete, Zeitplan und Budget hinzugefügt. \\ 
+1.2 & 25.05.2014 & Risikomanagement hinzugefügt. \\
 \end{tabular}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -314,6 +315,17 @@ Version & Datum & Änderungen \\
 Dieser Teil ist ein
   wichtiger Schwerpunkt des Projektplans und sollte daher ausführlich
   behandelt werden.}
+
+Um eine schnellere Erfassung der Risiken zu bekommen, eignen sich immer visuelle Darstellungen. Wir verwenden dafür eine Matrix/Tabelle, bei der man die Risikonstufen schnell erkennen kann.\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{src/risikomatrix.png}
+	\caption{Risikomatrix}
+	\label{fig:Matrixtable}
+\end{figure}
+
+
 
 \subsection{Projektüberwachung}\label{3.4-controlling}
 {\em Wie wird der Projektstatus verfolgt? Wie stellt Ihr sicher, dass
