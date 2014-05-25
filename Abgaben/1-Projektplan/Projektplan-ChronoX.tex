@@ -32,11 +32,25 @@
             pdftex=true]{hyperref}
 \usepackage{bookmark}
 
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xparse} % LaTeX 3 command
+%\usepackage{ulem} % different underscores for words
+
+\usepackage{xspace} %% Fooling LaTeX
+
+%\uline{important}  % unterstreichen
+%\uuline{urgent}    % doppelt unterstreichen
+%\uwave{boat}       % unterschlängeln
+%\sout{wrong}       % durchstreichen
+%\xout{removed}     % ausstreichen mit
+
 \newboolean{langversion} %Deklaration
 \setboolean{langversion}{true} %Zuweisung ist 'false' für Blockkurs
 \newcommand{\highlight}[1]{\textcolor{blue}{\textbf{#1}}}
 \newcommand{\nurlangversion}[0]{%
 \ifthenelse{\boolean{langversion}}{\highlight{Muss in SWP-2 ausgefüllt werden}}{\highlight{Entfällt in SWP-1}}}
+
 
 \newcommand{\swp}[0]{\ifthenelse{\boolean{langversion}}%
 {Software--Projekt 2}{Software--Projekt 1}}
@@ -68,6 +82,19 @@
    \fancyhead[LO,RE]{\swp\\ \semester{}
   \\Projektplan}
   \fancyhead[LE,RO]{Seite \thepage\\\slshape \leftmark\\\slshape \rightmark}
+  
+  
+  % re implements
+  \lstset{literate=%
+  	{Ö}{{\"O}}1
+  	{Ä}{{\"A}}1
+  	{Ü}{{\"U}}1
+  	{ß}{{\ss}}1
+  	{ü}{{\"u}}1
+  	{ä}{{\"a}}1
+  	{ö}{{\"o}}1
+  	{°}{{$^\circ$}}1
+  }
 
 %
 % Und jetzt geht das Dokument los....
@@ -79,7 +106,7 @@
   \thispagestyle{fancy}
   \fancyhead[LO,RE]{ }
   \fancyhead[LE,RO]{Universität Bremen\\FB 3 -- Informatik\\
-  Prof. Dr. Rainer Koschke \\TutorIn: Euer/Eure TutorIn}
+  Prof. Dr. Rainer Koschke \\TutorIn: Michaela Bunke}
   \fancyfoot[C]{}
 
 % Start Titelseite
@@ -102,7 +129,7 @@
   \bf
   {\Large Projektplan}\\
   \vspace{3ex}
-  $<$Name der Projektgruppe$>$\\% Ersetzen
+  ChronoX\\% Ersetzen
   \vfill
   \end{center}
   \end{minipage}
@@ -111,13 +138,14 @@
   \begin{center}
   \sf
   \begin{tabular}{lrr}
-  xxxxxx xxxxxxx & xxxxxxxx@tzi.de & 1234567\\
-  xxxx xxxxxxxx & xxxx@tzi.de & 2345678\\
+  Alexander But & abut@tzi.de & 4000486\\
+  Tobias Dellert & tode@tzi.de & \color[rgb]{1,0,0}\LARGE MAT\_NR\color[rgb]{0,0,0}\\
+  Karsten Betjemann & mortem34@tzi.de & \color[rgb]{1,0,0}\LARGE MAT\_NR\color[rgb]{0,0,0}\\
   \end{tabular}
   \\ ~
   \vspace{2cm}
   \\
-  \it Abgabe: TT. Monat JJJJ --- Version 1.1\\ ~
+  \it Abgabe: 25. Mai 2014 --- Version 1.1\\ ~
   \end{center}
   \end{minipage}
 
@@ -150,13 +178,22 @@ identifizieren sein, hier und optimalerweise auf dem Titelblatt.}
 \begin{tabular}{ccl}
 Version & Datum & Änderungen \\
 \hline
-1.0 & TT.MM.JJJJ & Erste veröffentlichte Version. \\
-1.1 & TT.MM.JJJJ & Zeitplanung für die Anforderungsspezifikation hinzugefügt. \\
-1.2 & TT.MM.JJJJ & .... 
+1.0 & 23.05.2014 & Erste veröffentlichte Version. \\
+1.1 & TT.MM.JJJJ & ....\\ 
+1.X & 25.05.2014 & Risikomanagement hinzugefügt. \\
 \end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{section}{-1}
+\section{Über uns}
+
+\Large Hier kommen die Fotos rein (in einem versetzten Zustand:)\\
+\LARGE ------ PIC ------ PIC ------ PIC ------\\
+\LARGE ----------- PIC ------- PIC ------ PIC ------\\ 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \section{Einleitung}
 
 \subsection{Projektübersicht}
@@ -286,6 +323,13 @@ Dieser Teil ist ein
 
 \subsection{Mitarbeiter}
 {\em Kompetenzen der und Anforderungen an die Mitarbeiter.}
+
+Die Anzahl der Anforderungen ist - in diesem Fall - recht überschaubar, jedoch im Detail recht komplex.\\
+Ein Minimum an Java-Kenntnissen reicht nur in der Theorie aus. Objektorientierung, Fehleranalyse und Kreation von effizienten Algorithmen, sollte man auch vorweisen können, da kein Kunde gerne 10min wartet, bis eine große Datenbank geladen hat und die Werte erst dann auf dem Bildschirm darstellt.\\
+Natürich ist es nicht der Standard. Es wird (verständlicherweise) immer Gruppenmitglieder geben, die eine Sache nicht vorweisen können.\\
+Um diese Lage auszugleichen, ist eine optimale Aufgabenaufteilung erforderlich.\\
+
+%todo  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
