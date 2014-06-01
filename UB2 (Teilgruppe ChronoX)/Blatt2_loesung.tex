@@ -8,6 +8,8 @@
 \usepackage{tabularx}
 \usepackage{supertabular}
 \usepackage{booktabs}
+\usepackage{glossaries}
+
 
 
 
@@ -18,7 +20,7 @@
 % \maketitle{Nummer}{Abgabedatum}{Tutor-Name}{Gruppennummer}
 %           {Teilnehmer 1}{Teilnehmer 2}{Teilnehmer 3}
 \maketitle{2}{01.06.2014}{Michaela Bunke}{ChronoX}
-          {Tim Ellhoff}{hier steht EUER NAME}{}
+          {Tim Ellhoff}{}{}
           
 \section*{Aufgabe 1)}
 
@@ -215,6 +217,7 @@ das laufende System beim Kunden möglich sein.“
 
 \subsubsection*{Performanz}
 Ähnlich ungenau ist die zweite Aussage formuliert. Perfomanz, also Leistung, kann sich auch auf alles Mögliche beziehen, je nach dem, auf was das Softwaresystem abzielt und welche Prioritäten es setzt. Bezieht sich die Performanz auf die Leistung der einzelnen Software-Komponenten wie Ausschnitte einer Anwendungssoftware oder Betriebssystemteile oder geht es eher darum, z.B. bestimmte Rechenoperationen in Java so schnell und effizient wie möglich durch den passenden Algorithmus zu implementieren? All das ist hier völlig offen gelassen worden. Zumindest hätte eine grobe Richtung angeben müssen, auf was sich Performanz beziehen soll.
+Umformuliert könnte man schreiben: „Das System soll so aufgebaut sein, dass die einzelnen Softwarekomponenten möglichst effizient in Bezug auf Geschwindigkeit der Datenverarbeitung und der Kommunikation untereinander arbeiten und gut miteinander harmonieren, sodass die Leistung, also die Performanz des Systems, möglichst hoch ist."
 
 
 \section*{Aufgabe 5)}
@@ -254,9 +257,16 @@ Die Anforderungsspezifikation soll der Implementierung keine Details vorwegnehme
 
 \subsection*{b)}
 Das Begriffslexikon erklärt alle Begriffe aus der Domäne des Kunden und des Entwicklers. So soll
-sichergestellt werden, das diese sich gegenseitig verstehen und die Beschreibungen in der AS
-eindeutig sind.\\
+sichergestellt werden, das diese sich gegenseitig verstehen und die Beschreibungen in der AS eindeutig sind.\\
 \subsection*{c)}
+Glossareintrag\footnote{vgl. \url{http://www.cssneuwied.de/php/wordpress_351/?page_id=47}}:
+
+\begin{tabular}{|p{5cm}|p{10cm}|}\hline
+   \textbf{Begriff} & \textbf{Erklärung}\\ \hline \hline
+   Rhythmisierter Unterricht & Rhythmisierter Unterricht bedeutet, dass  in einer (Ganztags)schule bestimmte Präsenzzeiten gelten (z.B. in Ganztagsschulen 8-16 Uhr), in der jedoch Unterricht und Freizeitgestaltung inkl. Mittagspause einander abwechseln. Der rhythmisierte Unterricht erlaubt den Einbau von bestimmten Lern- und Übungsphasen, wenn der Lehrer dies für nötig hält. Ziel des rhythmisierten Unterrichts ist die Verteilung des Schultags nicht nur auf den Vormittag, sondern auf den ganzen Tag mit gezielten Entspannungs- und Förderungsphasen. Dadurch soll der stressige Schulalltag etwas entschleunigt werden, was zu einer besseren Arbeitsatmosphäre führt. \\ \hline
+
+ \end{tabular}
+
 \subsection*{d)}
 Um die Standfestigkeit des Systems (im Sinne von Aus- und Belastung) in der späteren
 Anwendung beim Kunden garantieren zu können, muss erst ein Mengengerüst erstellt werden. In diesem werden die erwartete Auslastung und die Veränderung dieser in der Zukunft statistisch
