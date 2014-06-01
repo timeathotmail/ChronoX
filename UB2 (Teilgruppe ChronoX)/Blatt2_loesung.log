@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  1 JUN 2014 14:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  1 JUN 2014 14:56
 entering extended mode
 **Blatt2_loesung.tex
 
@@ -761,48 +761,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--185
 Underfull \vbox (badness 1490) has occurred while \output is active []
 
  [4]
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 225--229
+Underfull \hbox (badness 3601) in paragraph at lines 214--215
+[]|\OT1/cmr/m/n/10.95 1. Der Ak-teur star-tet das Stundenplan-Management-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
 
  []
 
 
-Overfull \hbox (16.79279pt too wide) in paragraph at lines 230--234
+Overfull \hbox (16.79279pt too wide) in paragraph at lines 260--264
 \OT1/cmr/m/n/10.95 Das Kano-Modell stellt hier-bei ge-wis-ser-ma-en den di-rek
 -ten Zu-sam-men-hang zwi-schen Erf[]ullungsgrad
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Overfull \hbox (12.19981pt too wide) in paragraph at lines 241--246
+[7]
+Overfull \hbox (12.19981pt too wide) in paragraph at lines 271--276
 \OT1/cmr/m/n/10.95 Begeisternde Fak-to-ren w[]are z.B. die Im-ple-men-tie-rung 
 ei-nes Al-go-rith-mus nach be-stimm-ten Stunden-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
+Underfull \hbox (badness 10000) in paragraph at lines 289--291
 
  []
 
-[8] [9]
+
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [9]
+[10]
 ("C:\Users\Tim Desktop\Dropbox\GitHub\ChronoX\UB2 (Teilgruppe ChronoX)\Blatt2_l
 oesung.aux") ) 
 Here is how much of TeX's memory you used:
- 8204 strings out of 493921
- 114371 string characters out of 3144858
- 234532 words of memory out of 3000000
- 11305 multiletter control sequences out of 15000+200000
- 12768 words of font info for 49 fonts, out of 3000000 for 9000
+ 8206 strings out of 493921
+ 114395 string characters out of 3144858
+ 234533 words of memory out of 3000000
+ 11306 multiletter control sequences out of 15000+200000
+ 12936 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  46i,18n,46p,1747b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
@@ -814,10 +820,11 @@ pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb>
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Blatt2_loesung.pdf (9 pages, 148890 bytes).
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Blatt2_loesung.pdf (10 pages, 166534 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
