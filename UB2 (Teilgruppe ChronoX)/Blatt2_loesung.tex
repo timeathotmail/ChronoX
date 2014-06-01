@@ -8,13 +8,13 @@
 \usepackage{tabularx}
 \usepackage{supertabular}
 \usepackage{booktabs}
-\usepackage{glossaries}
 
 
 
 
 
-\usepackage{amsmath}
+
+
 \begin{document}
 
 % \maketitle{Nummer}{Abgabedatum}{Tutor-Name}{Gruppennummer}
@@ -138,47 +138,6 @@ Das \textbf{Ziel} beim experimentellen Prototyp ist im Allgemeinen eine Überpr�
 
 \end{itemize}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \subsection*{a) und b) (in einem Text)}
 Zunächst lassen sich Prototypen in zwei Kategorien einteilen. Zum einen gibt es sie in Bezug auf die Lebensdauer und zum anderen in Bezug auf den Zweck. Unterschieden werden kann bei der Funktionalität, da es die horizontale Richtung, in der bestimmte Ebenen wie Anwendungslogik oder Benutzerschnittstelle möglichst vollständig abgedeckt werden, und die vertikale Richtung, die darauf abzielt, Teilbereiche aller Ebenen des Systems zu erfassen, zum Beispiel bei so genannten kritischen Anforderungen. \\
 Außerdem gibt es noch bestimmte Typen von Prototypen; den Papierprototypen, der selbst keine Interaktion bietet, analytisch ausgelegt ist und meist durch Screenshots oder Bildschirmmasken visualisiert wird und simple Ein- und Ausgabemöglichkeiten der Software präsentiert; dann den animierten Prototypen, der ein Systemverhalten zeigt, das als eine Art Demo selbstständig läuft; und den interaktivsten, nämlich den ausführbaren Prototypen, der natürlich auch am teuersten und aufwändigsten ist, aber auch die meisten Funktionen wie z.B. echtes GUI-Design bietet.\\
@@ -200,9 +159,92 @@ Natürlich kann es auch aufgrund des mangelnden technischen Verständnisses des 
 Wie oben schon erwähnt, gibt es neben der Lebensdauer eine weiteren Bezug, die Prototypen nehmen können: den Zweck. Als Beispiel sei hier der technische Prototyp genannt, der darauf abzielt, die technische Realisierbarkeit von den Ansätzen zu der vollständigen Problemlösung zu untersuchen und darzustellen. Hier geht es nicht darum, Systeme vollständig zu implementieren, sondern gezielte Teilbereiche herauszugreifen, an deren Prototypen man die technische Machbarkeit des jeweiligen Features abschätzen kann, wobei es  hierbei je nach genauer Zielsetzung sowohl Wegwerf- als auch evolutionäre Modelle geben kann. \\
 Man könnte diesen Prototypen einsetzen, um eine bestimmte Funktionalität, die man im System implementieren möchte, im Stundenplan-Projekt auf seine Machbarkeit zu untersuchen. Dabei kann es ja sein, dass man spezielle Features ggf. optionaler Art unbedingt ins System integrieren möchte, aber nicht genau einschätzen kann, ob dies auch technisch realisierbar ist. Hier kann so ein Prototyp dazu dienen, dies herauszufinden.\\
 Die Vorteile liegen auf der Hand: Lange und ggf. vergebliche Implementierungs- und Entwicklungsprozesse bleiben aus, wenn das technische Prototyping bezüglich der Realisierbarkeit negativ ausfällt, was den Fokus der Entwickler auf andere Dinge richten lässt. Nachteilig ist, dass auch dieser Prototyp eher speziell ist und nicht für das ganze System genutzt werden kann, das für den Gesamtüberblick nicht ideal ist. 
-   
-
+ 
 \section*{Aufgabe 2)}
+GUI für das Stundenplansystem
+\clearpage
+
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/1.png}}
+\caption{Startseite des Stundenplansystems }
+\label{ab1}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/2.png}}
+\caption{Wochenübersicht mit vielen freien (blauen) Zeitslots. Nur Montag von 10-12 Uhr laufen zwei parallele Veranstaltungen. Durch einen Klick auf einen der bunten Buttons öffnet sich eine Sidebar zur Bearbeitung.}
+\label{ab2}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/2a.png}}
+\caption{Detailübersicht für den Montag: die anthrazitfarbenen Buttons sind zur Bearbeitung in der linken Sidebar geöffnet und können editiert werden. }
+\label{ab3}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/2b.png}}
+\caption{Jetzt wurde links der Raum 131 angewählt. }
+\label{ab4}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/3.png}}
+\caption{Jetzt erscheint eine Fehlermeldung, dass der gewünschte Raum bereits belegt ist (zeitgleich mit dem Deutschkurs). Der Nutzer hat die Möglichkeit, im nächsten Schritt den Raum zu ändern oder zurückzugehen.}
+\label{ab5}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/3a.png}}
+\caption{Der Nutzer hat sich entschlossen, Raum 133 auszuwählen und klickt OK. }
+\label{ab6}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/3b.png}}
+\caption{Das System akzeptiert die Auswahl. Jetzt stehen links in der Sidebar überall Häkchen und kein Kreuz mehr und die Farben wurden auch wieder von anthrazit auf die bunten Ausgangsfarben im Stundenplan geändert. }
+\label{ab7}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/4.png}}
+\caption{Der Nutzer entscheidet sich jetzt, den Deutschkurs zu editieren.Ein Unterauswahlmenü mit verschiedenen Fächern erscheint. }
+\label{ab8}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/4a.png}}
+\caption{Er wählt als Fach Englisch aus und klickt OK. }
+\label{ab9}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/4b.png}}
+\caption{Nun stört sich das System daran, dass Lehrer Dr.M kein Englischlehrer ist. Der Nutzer kann entweder den Lehrer oder das Fach ändern (oder zurückgehen). }
+\label{ab10}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/4c.png}}
+\caption{Wenn er die Eingabe so belässt, wird das System wieder einen Hinweis geben. Das erkennt man an den roten Kreuzen links in der Sidebar und auch an den Ausrufezeichen (!!!) im Stundenplan macht uns das System darauf aufmerksam, dass die Belegung nicht korrekt ist. Also muss er die Auswahl ändern.}
+\label{ab11}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/4d.png}}
+\caption{Der Nutzer ändert den Lehrer auf Frau/Herrn He. und klickt OK (in der Auswahlliste waren alle verfügbaren Englischlehrer). }
+\label{ab12}
+\end{figure}
+
+\begin{figure}
+\centering{\includegraphics[width=\textwidth] {GUI/4e.png}}
+\caption{Die Eingabe wird akzeptiert und das System gibt keine Fehlermeldungen mehr aus. }
+\label{ab13}
+\end{figure}
+
+
+
 \section*{Aufgabe 3)}
 
 	
@@ -211,21 +253,20 @@ Die Vorteile liegen auf der Hand: Lange und ggf. vergebliche Implementierungs- u
 		\hline \textbf{Akteure} & Ludwig Lehrer, Otto Oberstufenkoordinator, Detlef Direktor\\
 		\hline \textbf{Ziel} & Der Akteur möchte eine Aktivität im Stundenplan editieren. \\
 		\hline \textbf{Vorbedingungen} & keine \\
-		\hline \textbf{Regulärer Ablauf} & 1. Der Akteur startet das Stundenplan-Management-Programm \\
-		&2. Das Programm startet und zeigt die Startseite. \\
-		&3. Der Akteur klickt auf die Schaltfläche \texttt{Stundenplan editieren}. \\
-		&4. Die Seite wird angezeigt. In dem jetzt zu sehenden Stundenplan hat der Akteur durch Klicken auf bestimmte Zeiträume folgende Möglichkeiten der Editierung:
+		\hline \textbf{Regulärer Ablauf} & 1. Der Akteur startet das Stundenplan-Management-Programm mittels des Buttons (siehe Abbildung \ref{ab1}). \\
+		&2. Das Programm startet und zeigt die Hauptseite mit einer Übersicht (siehe Abbildung \ref{ab2}). \\
+		&3. Der Akteur klickt auf einen der bunten Buttons im Zeitslot 10-12 Uhr am Montag. \\
+		&4. Die Seite wird angezeigt. In dem jetzt zu sehenden Stundenplanauschnitt für Montag hat der Akteur durch Klicken auf bestimmte Zeiträume folgende Möglichkeiten der Editierung:
 		\begin{itemize}
-		\item \texttt{Zeitraum von 10-12 Uhr mit Lehrer/in füllen}
-		\item \texttt{Zeitraum von 10-12 Uhr mit Klasse füllen}
-		\item \texttt{Zeitraum von 10-12 Uhr mit Schulfach füllen}
-\end{itemize}		   
-5. Er wählt eine Aktivität aus und es erscheint ein weiteres Auswahlmenü, das z.B. fragt, welche Klasse in den Zeitraum gelegt werden soll, z.B. eine Liste mit allen Klassen, wo der Akteur die Klasse 3a auswählt,also \texttt{Klasse in  den Zeitraum von 10-12 Uhr legen: 3a}.\\
-&6. Es erfolgt eine Bestätigung: \texttt{Zeitraum von 10-12 Uhr mit Klasse 3a befüllt.}\\
-
-		\hline \textbf{Varianten} & keine \\
-		\hline \textbf{Nachbedingungen} & Der Akteur sieht nun im Stundenplan die Belegung des gewünschten Zeitraums mit der gewünschten Aktivität.\\
-		\hline \textbf{Fehler-/Ausnahmefälle} & Server ist nicht erreichbar. \\
+		\item \texttt{Zeitraum von 10-12 Uhr (Deutschkurs) editieren}
+		\item \texttt{Zeitraum von 10-12 Uhr (Mathekurs) editieren}
+		\item \texttt{einen blauen freien Zeitraum editieren bzw. mit Inhalt füllen}
+\end{itemize}	
+(siehe Abbildung \ref{ab3}).	   
+ Er wählt den Deutschkurs aus und es erscheint ein weiteres Auswahlmenü, wo Fächer, Lehrer, Klasse und Räume editiert werden können (siehe Abbildung \ref{ab4}).\\
+&5. Wenn man alles korrekt eingegeben hat (siehe Abbildung \ref{ab6}) und OK klickt, wird die Eingabe akzeptiert (siehe Abbildung \ref{ab7}).\\
+		\hline \textbf{Nachbedingungen} & Der Akteur sieht nun im Stundenplan die Belegung des gewünschten Zeitraums mit der gewünschten Aktivität. \\
+		\hline \textbf{Fehler-/Ausnahmefälle} & Server ist nicht erreichbar bzw. das Programm lässt sich nicht fehlerfrei ausführen. \\
 		\hline 
 	\end{tabular}
 
@@ -318,11 +359,7 @@ ermittelt. So kann der Entwickler vorher überprüfen, ob dies mit bestehender T
 
 
 
-\begin{figure}
-%\center{\includegraphics[angle=90, scale=0.5]{gantt-4a.png}}
-%\caption{Motorrad-Projekt im Gantt-Diagramm}
-\label{Bild:image}
-\end{figure}
+
 
 
 \end{document}
