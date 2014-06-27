@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  26 JUN 2014 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.24)  27 JUN 2014 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -508,27 +508,152 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<Diagramm.png, id=1, 660.96938pt x 376.40625pt>
+File: Diagramm.png Graphic file (type png)
+ <use Diagramm.png>
+Package pdftex.def Info: Diagramm.png used on input line 132.
+(pdftex.def)             Requested size: 495.72581pt x 282.30399pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--134
+
+ []
+
+
+Overfull \hbox (40.48174pt too wide) in paragraph at lines 35--134
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--134
+
+ []
+
+[1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Blatt2_loesung.aux) ) 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4 <./Diagramm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+<Objektdiagramm.png, id=22, 368.87813pt x 136.25906pt>
+File: Objektdiagramm.png Graphic file (type png)
+
+<use Objektdiagramm.png>
+Package pdftex.def Info: Objektdiagramm.png used on input line 164.
+(pdftex.def)             Requested size: 368.87721pt x 136.25871pt.
+
+<Assoziationsklasse.png, id=23, 707.64375pt x 622.57594pt>
+File: Assoziationsklasse.png Graphic file (type png)
+
+<use Assoziationsklasse.png>
+Package pdftex.def Info: Assoziationsklasse.png used on input line 169.
+(pdftex.def)             Requested size: 353.82101pt x 311.2872pt.
+
+<Mehrteilige_Assoziation.png, id=24, 519.44063pt x 353.82187pt>
+File: Mehrteilige_Assoziation.png Graphic file (type png)
+
+<use Mehrteilige_Assoziation.png>
+Package pdftex.def Info: Mehrteilige_Assoziation.png used on input line 176.
+(pdftex.def)             Requested size: 259.71968pt x 176.91049pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--179
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./Objektdiagramm.png> <./Assoziationsklasse.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./Mehrteilige_Assoziation.png>] [8] (./Blatt2_loesung.aux) ) 
 Here is how much of TeX's memory you used:
- 4335 strings out of 493117
- 58988 string characters out of 6135433
- 136023 words of memory out of 5000000
- 7715 multiletter control sequences out of 15000+600000
- 9498 words of font info for 36 fonts, out of 8000000 for 9000
+ 4360 strings out of 493117
+ 59511 string characters out of 6135433
+ 145023 words of memory out of 5000000
+ 7733 multiletter control sequences out of 15000+600000
+ 10152 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,18n,46p,275b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmss17.pfb>
-Output written on Blatt2_loesung.pdf (1 page, 46766 bytes).
+ 38i,18n,46p,1044b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Blatt2_loesung.pdf (8 pages, 162348 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
