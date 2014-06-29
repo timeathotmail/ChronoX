@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  29 JUN 2014 12:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  29 JUN 2014 23:06
 entering extended mode
 **Blatt3_loesung.tex
 
@@ -551,11 +551,6 @@ te z.B. au-to-ma-ti-sche Eingabe- und []Anderungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-
 Underfull \vbox (badness 1478) has occurred while \output is active []
 
  [7]
@@ -617,15 +612,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-[10 <C:/Users/Tim Desktop/Dropbox/GitHub/ChronoX/UB3 (Teilgruppe ChronoX)/Mehrt
-eilige_Assoziation.png>]
+<queue_paint.png, id=40, 478.03593pt x 539.76656pt>
+File: queue_paint.png Graphic file (type png)
+ <use queue_paint.png>
+Package pdftex.def Info: queue_paint.png used on input line 242.
+(pdftex.def)             Requested size: 478.03476pt x 539.76524pt.
+
+Overfull \hbox (22.79068pt too wide) in paragraph at lines 242--243
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <C:/Users/Tim Desktop/Dropbox/GitHub/ChronoX/UB3 (Teilgruppe ChronoX)/Mehr
+teilige_Assoziation.png>] [11 <C:/Users/Tim Desktop/Dropbox/GitHub/ChronoX/UB3 
+(Teilgruppe ChronoX)/queue_paint.png>]
 ("C:\Users\Tim Desktop\Dropbox\GitHub\ChronoX\UB3 (Teilgruppe ChronoX)\Blatt3_l
 oesung.aux") ) 
 Here is how much of TeX's memory you used:
- 3897 strings out of 493921
- 51739 string characters out of 3144858
+ 3902 strings out of 493921
+ 51833 string characters out of 3144858
  136956 words of memory out of 3000000
- 7133 multiletter control sequences out of 15000+200000
+ 7137 multiletter control sequences out of 15000+200000
  10152 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,18n,46p,1045b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -636,9 +645,9 @@ mbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on Blatt3_loesung.pdf (10 pages, 183059 bytes).
+Output written on Blatt3_loesung.pdf (11 pages, 209130 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
