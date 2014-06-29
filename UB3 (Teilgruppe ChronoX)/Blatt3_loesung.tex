@@ -151,6 +151,57 @@ Als beispielhafte Umsetzung könnte man eine Klasse \textit{Person} als abstrakt
 
 \section*{Aufgabe 4)}
 
+\subsubsection*{1) Allgemeine datenschutzrechtliche Fragestellungen}
+
+Bei der Entwicklung eines Online-Systems zur einheitlichen Erfassung von Übungszettelpunkten ist datenschutzrechtlich einiges zu beachten.\\
+Zunächst sollten bei der Entwicklung die Grundsätze der informationellen Selbstbestimmung beachtet werden. Dazu gehört, dass die drei Benutzergruppen des Systems, also Veranstalter/in, Tutor/in und Student/in darüber informiert werden müssen, welche Daten wofür benutzt werden und wie lange sie gespeichert werden. Insofern muss der Verhältnismäßigkeitsgrundsatz und die Zweckbindung beachtet werden. Konkret heißt das, dass personenbezogene Daten des Studenten wie der Name verwendet werden müssen, sowie zur Orientierung für Veranstalter und Tutor die aktuelle Dreiergruppe sowie die aktuellen Punktzahlen der Übungszettel. Nicht zweckmäßig für dieses System sind andere Daten wie die Matrikelnummer (woraus der Tutor schließen könnte, in welchem Semester der Studierende sich befindet - Matrikelnummern werden ja in FlexNow schon verwendet und sind dort vom Veranstalter einzusehen) sowie Informationen zum  Studiengang der Person.   \\
+Zweckbindung bedeutet insbesondere, dass die oben genannten Daten auch nur für diesen Zweck, nämlich der Haltung des Online-Systems für Übungszettelpunkte verwendet wird und diese Daten nicht an Dritte weitergegeben oder anderweitig weiterverarbeitet werden dürfen.\\
+
+Dann sollte auch die Einwilligung der Betroffenen eingeholt werden, wobei hier natürlich die Erlaubnis der Datenverwendung durch das Gesetz greifen dürfte, wie z.B. in Bezug auf Daten von Arbeitnehmern (zwar faktisch in der Uni kein Arbeitgeber-Arbeitsnehmer-Verhältnis, aber ähnlich). In diesem Fall darf der Arbeitgeber (die Uni) Arbeitnehmerdaten (Studentendaten), die fur das Arbeitsverhältnis von grundlegender Bedeutung sind, verwenden. 
+
+Ähnliche Ansprüche ergeben sich aus dem dem Erforderlichkeits-Maßstab
+für den Umgang mit Daten. Diese ergibt sich aus einer Abwägung zwischen dem Interesse des Betroffenen an der
+Geheimhaltung und dem Interesse des Unternehmers an der Verwendung. In diesem Fall überwiegt das Interesse der Universität an der Verwendung der Daten, wobei natürlich hier Daten so sparsam wie möglich verarbeitet werden müssen.\\
+Ebenso sollte der Betroffene das Recht haben, zu erfahren, wie mit seinen Daten umgegangen wird.
+
+Des weiteren sollte die Erforderlichkeit der Speicherung von Daten nachgewiesen werden und nicht mehr erforderliche Daten frühestmöglich gelöscht werden. \\Es ist somit ratsam, die Übungszettelpunkte nach abgeschlossenem Modul bzw. nach Eintragung der Note in FlexNow zu automatisch zu löschen, damit nicht ein PI2-Tutor ggfs. in einem folgenden Semester einsehen kann, wie der Studierende in einer Vorveranstaltung (wie z.B. PI1) abgeschnitten hat. 
+
+Außerdem sollte dafür gesorgt werden, dass Daten nicht manipuliert werden können (Stichwort IT-Security, weiter unten) und dass das Transparenzgebot eingehalten wird, was besagt, dass die Datenverarbeitung organisatorisch
+so ablaufen muss, dass z.B. ein
+Datenschutzbeauftragter sich von den Datenschutzvorkehrungen des Systems überzeugen kann. Ersteres ist wichtig, um zu verhindern, dass womöglich korrupte Tutoren oder Veranstalter nachträglich Daten ändern oder sogar manipulieren.
+
+Wichtig ist in diesem Zusammenhang auch, dass die allgemeinen Sicherheitsanforderungen Vertraulichkeit (Schutz vor unbefugter Preisgabe von
+Informationen), Verfügbarkeit (Schutz vor unbefugter Vorenthaltung von Informationen oder Betriebsmitteln) und schließlich Integrität (Schutz vor unbefugter Veränderung von
+Informationen, Programmen, des Systems oder Netzwerkes) eingehalten werden. 
+
+\subsubsection*{2) Fragestellungen bezogen aufs Onlinesystem, schützenswerte Daten und Einsehbarkeit}
+
+Gemäß den drei Geboten Zutrittskontrolle, Zugangskontrolle und Zugriffskontrolle wird im Folgenden beschrieben, welche Daten schützenswert sind und vom wem sie jeweils einzusehen sein sollten.
+
+Zunächst einmal sind Übungszettel zwar in festen Dreiergruppen, zugeordnet in ein festes Tutorium zu bearbeiten. Dennoch ist es möglich, Gruppen und Tutorien jederzeit zu wechseln. Insofern ist es wenig sinnvoll, Zutritt zum System mit einem Gruppen-Login zu erlangen, wenn z.B. ein Studierender jede Woche seine Gruppe wechselt. Es sollte daher möglich sein (z.B. mit seinem Fachbereichsaccount), dass sich jeder Studierende in das System einzeln einloggen kann und sieht, in welcher Gruppe er aktuell ist bzw. mit welchen Gruppenkonstellationen er welche Blätter bearbeitet hat und seine Punkte sowie einen gewichteten Mittelwert für seinen aktuellen Stand einsehen kann. Unbefugte können wegen des zwingend erforderlichen Logins die Daten nicht einsehen.\\ 
+Die zweite Benutzergruppe sind die Tutoren bzw. Veranstalter. Diese müssen sich ebenfalls einloggen, um Zutritt um System zu bekommen.
+
+Zugangskontrolle bedeutet, dass man keinen Unbefugten ans System ranlassen darf. Dies könnte bei beiden Benutzergruppen dadurch gewährleistet sein, dass das Anmelden ins System nach einigen Fehlversuchen für eine bestimmte Zeit gesperrt wird.
+
+Interessanter wird es im Bereich der Zugriffskontrolle, die besagt, dass man keinen Unbefugten auf Daten zugreifen
+lassen soll. Unbefugt wäre der Studierende, selbst Punkte für Übungszettel einzutragen. Insofern hat er nur eine Einsicht in die Daten, kann sie aber nicht ändern. Der Veranstalter bzw. Tutor hingegen darf Punkte eintragen. Um die nachträgliche und unter Umständen nicht nachvollziehbare Änderung von Punkten zu verhindern, könnte man die Einverständnis bzw. Akzeptanz der vergebenen Punkte von Übungszetteln vom Studierenden einholen, um Manipulationen vorzubeugen. Praktisch würde es so aussehen, dass der Tutor eine Punktzahl vergibt und ins System einträgt. Diese wären dann für den Studierenden sichtbar und er müsste, nachdem er das korrigierte Blatt zurückbekommt und sich Richtigkeit der Punktzahl überzeugt hat, im System ein Häkchen hinter die Punktzahl setzen. Ab diesem Zeitpunkt wäre die Punktzahl nicht mehr editierbar oder nur in Ausnahmen mit Absprache bzw. Genehmigung des Veranstalters.
+
+Zusammenfassend lässt sich sagen, dass sich zwei zu authentifizierende Benutzergruppen mit unterschiedlichen Zugriffsbeschränkungen auf das System zugreifen sollten. Zu verarbeitende Daten wären lediglich Name der Studierenden, (alle) Gruppennamen und Übungszettelpunkte sowie der gewichtete Durchschnitt der Punkte (wichtig für zugelassen zum Fachgespräch oder nicht) , nicht aber Matrikelnummer, Adresse, Studiengang, aktuelles Semester. Sobald die Daten in FlexNow eingetragen sind, könnten die Daten automatisch gelöscht werden, da ab dann nur noch die Endnote zählt.
+ 
+Es ist trotzdem dem Veranstalter möglich, durch Lichtbildausweis und Studentenausweis nur mit den vorhandenen Daten im Onlinesystem die Identität des Studierenden zu überprüfen. Der Veranstalter könnte das Onlinesystem dann auch im Fachgespräch verwenden, um die Fragen je nach Vornote auszuwählen. Auch aus diesem Grund ist es wichtig, dass Daten wie Matrikelnummer oder aktuelles Semester nicht in diesem System auftauchen, damit das nicht indirekt Auswirkungen bzw. einen Einfluss auf die Prüfung hat (wenn jemand beispielsweise schon im 12. Semester ist und eine PI1-Prüfung absolviert, er hat sich offiziell vorher nie für die Prüfung angemeldet, könnte das unbewusst einen negativen Einfluss auf die Prüfung haben bzw. der Prüfer könnte seine Objektivität verlieren).
+
+Unabhängig davon wäre es nach erfolgter Prüfung möglich, gemäß der Weitergabekontrolle die Endnote nur ins FlexNow einzutragen, nicht aber an die Daten (auch nicht aus dem Übungszettelpunkte-System) an Unbefugte weiterzugeben. Da die Eintragung manuell erfolgt, sind Maßnahmen wie Regelungen für den Transport von Datenträgern oder 
+kryptographische Verschlüsselungen der zu übertragenen Daten nicht nötig. \\
+In diesem Zusammenhang gilt insbesondere das Prinzip des Trennungsgebots. Daten, die unterschiedlichen Zwecken dienen, werden strikt getrennt. Das wird hier auch umgesetzt, indem das Punkte-System nur dazu dient, die Punkte für Übungszettel und die Befugnis zur Teilnahme am Fachgespräch zu gewährleisten, während im FlexNow-System die Noten und viele weitere personenbezogene Daten, die natürlich der Dozent wiederum nicht einsehen kann, verarbeitet werden.
+
+
+\subsubsection*{3) Datensicherheit im System}
+
+Ziel der Datensicherheit ist es, den Schutz vor Verfälschung und Verlust von Daten und vor unberechtigten Zugriffen auf Daten zu gewährleisten.\\
+Bezogen auf den unberechtigten Zugriff ist oben schon alles gesagt worden. Nicht authentifizierte Benutzer kommen nicht ins System. Man benötigt also zwingend Login-Daten. \\
+Um Datenverfälschung vorzubeugen, könnte man neben der schon genannten Maßnahme mit dem Akzeptanzbutton des Studierenden für seine Note z.B. automatische Eingabe- und Änderungs-protokollierungen einbauen, um so im Nachhinein und objektiv prüfen zu können, ob Punkte nachträglich geändert oder verfälscht wurden.\\
+Um Datenverlust vorzubeugen, sollten automatisierte Backups der Daten im Sinne der Verfüg-barkeitskontrolle auf gesicherten Servern z.B. der Universität durchgeführt werden. Hier sind natürlich auch geeignete Sicherheitsstandards anzuwenden, um von Angriff Dritter geschützt zu sein.
+
 
 
 \section*{Aufgabe 5)}
