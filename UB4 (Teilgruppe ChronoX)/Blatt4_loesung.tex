@@ -44,11 +44,15 @@ der Kunde möchte sich Produktdetails von \textit{X123} anzeigen lassen. Die \te
 Die Datenbank liefert wiederum eine Liste mit Details zurück, die wieder in ansprechender Form dem Kunden von der \texttt{ShoppingSession} angezeigt werden.\\
 Der Kunde entschließt sich dazu, das Gerät \texttt{X123} zu kaufen und legt es durch entsprechende Eingaben in den Warenkorb. Letzterer wird durch die Klasse \texttt{Cart} modelliert. Der Konstruktur der Klasse wird aufgerufen und mittels der \texttt{add}-Methode und dem entsprechendem Parameter wird das Gerät tatsächlich in den virtuellen Warenkorb bewegt, da die Methode \texttt{true} zurückliefert. Dies wird an die \texttt{ShoppingSession} weitergeleitet, die dann diese Information in verständlicher Form an den Kunden weiterleitet. \\
 Zum Schluss überlegt es sich der Kunde doch noch mal anders und bricht seinen Einkauf ab, indem er durch entsprechende Eingaben (z.B. Löschen des Warenkorbs oder Ausloggen) der \texttt{ShoppingSession} den Abbruch mitteilt. Diese ruft die \texttt{clearProducts}-Methode auf und der entsprechende Teil der Datenbank wird geleert bzw. gelöscht. Schließlich liefert die Methode \texttt{true} zurück und die Aktion wurde erfolgreich abgebrochen. Der Warenkorb dürfte somit wieder leer sein.
+\clearpage
 
 
-
-\textbf{Äquivalentes Kommunikationsdiagramm:}\\
-
+\textbf{Äquivalentes Kommunikationsdiagramm:}
+\begin{figure}[h]
+\centering{\includegraphics[width=16.5cm]{aufg4.png}}
+\caption{Äquivalentes Kommunikationsdiagramm zum gegebenen Sequenzdiagramm}
+\label{ab2}
+\end{figure}
 
 \end{document}
 
