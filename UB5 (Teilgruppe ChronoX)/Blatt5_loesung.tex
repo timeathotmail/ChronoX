@@ -73,11 +73,160 @@ public class Del extends Command{
 \end{lstlisting}
 
 
-\section*{Aufgabe 2)}
+\section*{Aufgabe 2) und Aufgabe 3)}
 
-\section*{Aufgabe 3)}
+\begin{lstlisting}
+public class InvalidArgumentException extends Throwable{};
+
+public abstract class Medium{
+	
+	private String titel;
+	private String verlag;
+	// --- Aufgabe 3 (section-start)
+	protected double rating;
+	protected int ratings;
+	// --- Aufgabe 3 (section-end)
+	
+	public void setTitel(String titel){
+		if ( titel!=null & !titel.equals("") ){
+			this.titel = titel;
+		} else {
+			throw new InvalidArgumentException();
+		}
+	}
+
+	public void setVerlag(String verlag){
+		if ( verlag!=null & !verlag.equals("") ){
+			this.verlag = verlag;
+		} else {
+			throw new InvalidArgumentException();
+		}
+	}
+	
+	public String getTitel(){
+		return titel;
+	}
+	
+	public String getVerlag(){
+		return verlag;
+	}
+	
+	// --- Aufgabe 3 (section-start)
+	public abstract void setRating( int rating );
+	public abstract double getRating();
+	// --- Aufgabe 3 (section-end)
+	
+}
+
+
+public class Buch extends Medium{
+	
+	private List<String> authors;
+	private Buchserie bookSet;
+	
+	public Buch( String titel, String verlag, String author ){
+		setTitel(titel);
+		setVerlag(verlag);
+		if ( author!=null & !author.equals("") ){
+			this.authors.add(author);
+		} else {
+			throw new InvalidArgumentException();
+		}
+	}
+	
+	public List<String> getAuthors(){
+		return authors;
+	}
+	
+	public addAuthor( String author ){
+		if ( !authors.contains(author) ){
+			authors.add(author);
+		}
+	}
+	
+	public delAuthor( String author ){
+		if ( authors.contains(author) ){
+			authors.remove(author);
+		}
+	}
+	
+	public getBookSet(){
+		return bookSet;
+	}
+	
+	public setBookSet( Buchserie bs ){
+		if ( !bs.getBooks.contains(this) ){
+			bs.getBooks.add(this);
+		}
+		bookSet = bs;
+	}
+	
+	// --- Aufgabe 3 (section-start)
+	public void setRating( int rating ){
+		if ( rating>=1 & rating <=5 ){
+			this.rating = (this.rating*ratings+rating)/(++ratings);
+		} else {
+			throw new InvalidArgumentException();
+		}
+	}
+	
+	public double getRating(){
+		return rating;
+	}
+	// --- Aufgabe 3 (section-end)
+	
+}
+
+public class Buchserie extends Medium{
+	
+	private List<Buch> books;
+	
+	public Buchserie( String titel, String verlag, Buch firstBook ){
+		setTitel(titel);
+		setVerlag(verlag);
+		if ( firstBook!=null ){
+			this.books.add(firstBook);
+		} else {
+			throw new InvalidArgumentException();
+		}
+	}
+	
+	public List<Buch> getBooks(){
+		return books;
+	}
+	
+	// --- Aufgabe 3 (section-start)
+	public void setRating( int rating ){
+		if ( rating>=1 & rating <=5 ){
+			this.rating = (this.rating*ratings+rating)/(++ratings);
+		} else {
+			throw new InvalidArgumentException();
+		}
+	}
+	
+	public double getRating(){
+		double averageRating = 0;
+		
+		for ( Buch b: books ){
+			averageRating += b.getRating();
+		}
+		averageRating = averageRating / books.size();
+		
+		return averageRating;
+	}
+	// --- Aufgabe 3 (section-end)
+	
+}
+\end{lstlisting}
+
+\begin{figure}[h]
+\centering{\includegraphics[width=16.5cm]{uml_klassendiAgramm.png}}
+\caption{UML Klassendiagramm zum Sachverhalt in Aufgabe 2}
+\label{ab3}
+\end{figure}
 
 \section*{Aufgabe 4)}
+\section*{Aufgabe 5)}
 
 \end{document}
 
