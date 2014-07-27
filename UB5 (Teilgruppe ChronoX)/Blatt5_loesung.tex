@@ -227,6 +227,29 @@ public class Buchserie extends Medium{
 \end{figure}
 
 \section*{Aufgabe 4)}
+
+\textbf{a)}\newline
+
+typ(60.0, 30.0, 110.0,160.0)\newline
+
+\textbf{b)}\newline
+
+
+
+\textbf{c)}\newline
+
+
+
+\textbf{d)}\newline
+
+Bezogen auf die insgesamt zur Verfügung stehenden Programmzweige, beläuft sich die Zweigabdeckung des ersten Testfalles auf 75 \%, da in diesem Falle die Konstruktion eines Sehnenvierecks vorliegt und deshalb die ersten beiden if-Zweige \emph{(26-31)} durchlaufen werden \emph{(false)}, welche ausschließlich dazu dienen, im Vorfeld jede Form auszusondern, die aufgrund ihrer Innenwinkel nicht als Viereck in Frage kommen.\newline
+Auch das nächste if-Statement \emph{(32-37)}, beziehungsweise der darauf bezogene Pfad wird mit demselben Ergebnis durchlaufen, da hier eben kein Rechteck vorliegt, (nicht alle Winkel sind gleich groß, alpha nicht 90.0).\newline
+Daraufhin werden noch zwei else-if-Prüfungszweige \emph{(38-41)} durchlaufen, welche wiederum ausschließen, dass es sich beim Testfall um ein Parallelogramm oder ein Trapez handelt.\newline
+Zuletzt schließt das Ganze bei der nächsten, erfolgreichen \emph{(true)} Kontrolle im 6. Programmzweig \emph{(42-43)}, welcher das Ergebnis - nämlich dass der Testfall ein Sehnenviereck darstellt - über \emph{return 3} indiziert und damit den Programmablauf beendet, ohne dass die letzten beiden Programmzweige \emph{(44-47)} durchlaufen wurden.\newline
+\newline
+Der zweite Testfall endet wesentlich früher; hier kann sofort eine Exception \emph{(Kein Viereck)} ausgegeben werden, sobald im ersten Programmzweig \emph{(26-27)} ermittelt wird, dass die Winkel des Testfalles alle gemeinsam keine 360.0 ausmachen \emph{(true)}.\newline
+Dadurch ergibt sich eine Zweigabdeckung von 12,5\%.\newline
+
 \section*{Aufgabe 5)}
 
 \end{document}

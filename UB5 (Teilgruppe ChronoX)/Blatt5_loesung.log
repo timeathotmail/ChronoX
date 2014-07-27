@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  27 JUL 2014 18:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.24)  27 JUL 2014 23:27
 entering extended mode
 **Blatt5_loesung.tex
-
-("C:\Users\Tim Desktop\Dropbox\GitWin\ChronoX\UB5 (Teilgruppe ChronoX)\Blatt5_l
-oesung.tex"
+("C:\Users\Tim Desktop\Desktop\UB5 (Teilgruppe ChronoX)\Blatt5_loesung.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,8 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Users\Tim Desktop\Dropbox\GitWin\ChronoX\UB5 (Teilgruppe ChronoX)\swp1.cls
-"
+("C:\Users\Tim Desktop\Desktop\UB5 (Teilgruppe ChronoX)\swp1.cls"
 
 LaTeX Warning: You have requested document class `swp1',
                but the document class provides `iug'.
@@ -433,8 +430,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count105
 \@thisrulewidth=\dimen140
 )
-("C:\Users\Tim Desktop\Dropbox\GitWin\ChronoX\UB5 (Teilgruppe ChronoX)\Blatt5_l
-oesung.aux")
+("C:\Users\Tim Desktop\Desktop\UB5 (Teilgruppe ChronoX)\Blatt5_loesung.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -447,7 +443,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen141
@@ -497,31 +494,69 @@ Overfull \hbox (14.22638pt too wide) in paragraph at lines 224--225
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4 <C:/Users/Tim Desktop/Dropbox/GitWin/ChronoX/UB5 (Teilgruppe ChronoX)/uml_kl
-assendiAgramm.png>]
-("C:\Users\Tim Desktop\Dropbox\GitWin\ChronoX\UB5 (Teilgruppe ChronoX)\Blatt5_l
-oesung.aux") ) 
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--252
+
+ []
+
+
+Underfull \vbox (badness 4913) has occurred while \output is active []
+
+ [4 <C:/Users/Tim Desktop/Desktop/UB5 (Teilgruppe ChronoX)/uml_klassendiAgramm.
+png>]
+[5] ("C:\Users\Tim Desktop\Desktop\UB5 (Teilgruppe ChronoX)\Blatt5_loesung.aux"
+) ) 
 Here is how much of TeX's memory you used:
- 4150 strings out of 493921
- 53408 string characters out of 3144858
+ 4152 strings out of 493921
+ 53297 string characters out of 3144858
  243956 words of memory out of 3000000
- 7388 multiletter control sequences out of 15000+200000
- 10142 words of font info for 39 fonts, out of 3000000 for 9000
+ 7389 multiletter control sequences out of 15000+200000
+ 10488 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,18n,46p,275b,1678s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Blatt5_loesung.pdf (4 pages, 104267 bytes).
+ 34i,18n,46p,473b,1678s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Blatt5_loesung.pdf (5 pages, 124392 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
