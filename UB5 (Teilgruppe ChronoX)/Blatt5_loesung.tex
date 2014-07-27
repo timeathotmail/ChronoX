@@ -74,6 +74,7 @@ public class Del extends Command{
 
 
 \section*{Aufgabe 2) und Aufgabe 3)}
+\paragraph{Hinweis.} Die für Aufgabe 3 relevanten Stellen sind in den Kommentaren im Java-Quellcode vermerkt.
 
 \begin{lstlisting}
 public class InvalidArgumentException extends Throwable{};
@@ -111,10 +112,10 @@ public abstract class Medium{
 		return verlag;
 	}
 	
-	// --- Aufgabe 3 (section-start)
+	// ----------- Aufgabe 3 (Aufgabenbereich-Beginn)
 	public abstract void setRating( int rating );
 	public abstract double getRating();
-	// --- Aufgabe 3 (section-end)
+	// ---------- Aufgabe 3 (Aufgabenbereich-Ende)
 	
 }
 
@@ -161,7 +162,7 @@ public class Buch extends Medium{
 		bookSet = bs;
 	}
 	
-	// --- Aufgabe 3 (section-start)
+	// ----------- Aufgabe 3 (Aufgabenbereich-Beginn)
 	public void setRating( int rating ){
 		if ( rating>=1 & rating <=5 ){
 			this.rating = (this.rating*ratings+rating)/(++ratings);
@@ -173,7 +174,7 @@ public class Buch extends Medium{
 	public double getRating(){
 		return rating;
 	}
-	// --- Aufgabe 3 (section-end)
+	// ----------- Aufgabe 3 (Aufgabenbereich-Ende)
 	
 }
 
@@ -195,7 +196,7 @@ public class Buchserie extends Medium{
 		return books;
 	}
 	
-	// --- Aufgabe 3 (section-start)
+	// ----------- Aufgabe 3 (Aufgabenbereich-Beginn)
 	public void setRating( int rating ){
 		if ( rating>=1 & rating <=5 ){
 			this.rating = (this.rating*ratings+rating)/(++ratings);
@@ -214,14 +215,14 @@ public class Buchserie extends Medium{
 		
 		return averageRating;
 	}
-	// --- Aufgabe 3 (section-end)
+	// ----------- Aufgabe 3 (Aufgabenbereich-Ende)
 	
 }
 \end{lstlisting}
 
 \begin{figure}[h]
 \centering{\includegraphics[width=16.5cm]{uml_klassendiAgramm.png}}
-\caption{UML Klassendiagramm zum Sachverhalt in Aufgabe 2}
+\caption{UML-Klassendiagramm zum Sachverhalt in Aufgabe 2}
 \label{ab3}
 \end{figure}
 
